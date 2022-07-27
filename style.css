@@ -29,3 +29,53 @@
     border-radius: 8px;
 
 }
+.donateSection{
+    text-align: center;
+   
+    margin-top: 100px;
+   
+}
+.forallClass{
+    /* padding: 10px 400px; */
+    width: 50%;
+    margin: 0 auto;
+}
+.donateHead h1{
+    font-size: 50px;
+}
+
+.cardSection{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-bottom: 30px;
+    
+}
+.cardSection p{
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+
+    
+}
+#colorP{
+    color: orangered;
+    background-color: #FFEEEE; ;
+    border: 2px solid orangered;
+
+}
+.inputTag{
+  opacity: .70;
+}
+.inputTag hr{
+    margin-bottom: 50px;
+    width: 60%;
+}
+.inputTag input{
+  border: 0px ;
+  font-size: 20px;
+  text-align: center;
+    
+}
