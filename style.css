@@ -1,0 +1,31 @@
+.headerSection{
+    padding: 50px;
+    text-align: center;
+   color: white;
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerText{
+    width: 70%;
+    
+
+}
+.headerSection h1{
+    font-size: 4rem;
+}
+.headerText p{
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+}
