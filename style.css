@@ -40,8 +40,11 @@
     width: 50%;
     margin: 0 auto;
 }
-.donateHead h1{
+.forAll{
     font-size: 50px;
+}
+.forAllp{
+    font-size: 20px;
 }
 
 .cardSection{
@@ -70,7 +73,7 @@
   opacity: .70;
 }
 .inputTag hr{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 60%;
 }
 .inputTag input{
@@ -78,4 +81,33 @@
   font-size: 20px;
   text-align: center;
     
+}
+.cardSectiontwo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.cardDesign{
+    padding: 20px 20px;
+    margin: 20px;
+    margin-top: -25px ;
+    background-color: aqua;
+    text-align: left;
+    border-radius: 5px;
+}
+.One{
+    background-color: rgb(235, 248, 252);
+}
+.Two{
+    background-color: rgb(253, 239, 240);
+}
+.Three{
+    background-color: antiquewhite;
+}
+.h2Design{
+    font-size: 30px;
+}
+.para{
+    font-size: 15px;
+    opacity: .60;
 }
