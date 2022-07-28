@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .headerSection{
     padding: 50px;
     text-align: center;
@@ -28,6 +32,9 @@
     padding: 10px 20px;
     border-radius: 8px;
 
+}
+main{
+    margin: 100px;
 }
 .donateSection{
     text-align: center;
@@ -110,4 +117,79 @@
 .para{
     font-size: 15px;
     opacity: .60;
+}
+.briefSection{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 100px; */
+    margin-top: -20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.brief{
+    width: 60%;
+    
+}
+.briefHeader{
+    font-size: 50px;
+}
+.briefPara{
+    font-size: 30px;
+    opacity: .60;
+    margin-bottom: 30px;
+}
+.brief a{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.briefImg{
+    margin: 50px;
+}
+.briefImg img{
+    width: 100%;
+
+}
+.Alt{
+    flex-direction: row-reverse;
+}
+.subscribe{
+    text-align: center;
+    
+}
+.subscribe h1{
+    margin-bottom: 10px;
+}
+.subscribe p{
+    opacity: .60;
+}
+.subB{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 100px;
+    border-radius: 8px;
+
+}
+.subB input{
+    opacity: .60;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(171, 176, 181);
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    min-height: 20vh;
+    
+}
+.fooTer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fooTer p{
+    font-style: italic;
 }
